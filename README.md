@@ -1,6 +1,6 @@
 Vamos a comenzar por hacer una aplicación completa que responde a las peticiones de root /, /artículos y /artículos/:id
 
-<pre><code class="python">
+```python
 from flask import Flask, url_for
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ def api_article(articleid):
 
 if __name__ == '__main__':
     app.run()
-</code></pre>
+```
 
 Usando curl:
 <pre>
